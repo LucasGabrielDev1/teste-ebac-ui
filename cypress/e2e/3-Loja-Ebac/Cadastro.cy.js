@@ -4,7 +4,7 @@
 describe('Funcionalidade: Cadastro', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/my-account/')
+        cy.visit('my-account')
     });
 
     it('deve completar o cadastro com sucesso', () => {
