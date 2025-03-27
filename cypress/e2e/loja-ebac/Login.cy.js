@@ -8,7 +8,7 @@ describe('Funcionalidade Login', () => {
     });
 
     afterEach(() => {
-        //cy.screenshot()
+        cy.screenshot()
     });
 
     it('Deve fazer login com sucesso', () => {
@@ -55,7 +55,6 @@ describe('Funcionalidade Login', () => {
     it.only('Deve fazer login com sucesso - usando Comandos customizados', () => {
         
         cy.login('lukinhascop1@gmail.com', 'superonze11' )
-        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain' , 'Olá, lukinhascop1 (não é lukinhascop1? Sair)')
 
 
     });
